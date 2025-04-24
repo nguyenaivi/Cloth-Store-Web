@@ -1,0 +1,169 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Chặn tràn ngang */
+  width: 100%;
+}
+
+.Hero {
+  padding: 10px 0;
+  display: flex;
+  align-items: stretch;
+  max-width: 100%;
+}
+
+/* Giảm kích thước HeroLeft */
+.HeroLeft {
+  flex: 1; /* Chiếm hết phần còn lại của Hero */
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden; /* Đảm bảo không có scroll */
+}
+
+.HeroLeft img {
+  width: 100%;
+  margin-left: 10px;
+  height: 100%;
+  object-fit: contain; /* Hiển thị toàn bộ ảnh mà không bị cắt */
+}
+
+/* HeroCenter */
+.HeroCenter {
+  text-align: center;
+}
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  z-index: 100;
+  color: #d9534f !important; /* Màu đỏ của nút */
+}
+
+.carousel-indicators .active {
+  background-color: #d9534f; /* Màu đỏ khi nút đang active */
+}
+
+.carousel-indicators {
+  position: absolute;
+  left: 35%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 5px 0;
+}
+
+/* HeroRight */
+.HeroRight {
+  background: #fde4e4;
+  padding: 15px;
+  padding-left: 5px !important;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 30%; /* Giảm bớt độ lớn của HeroRight */
+  max-height: fit-content;
+}
+
+/* Tiêu đề Top Sale */
+.TopSaleTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d9534f;
+  margin-bottom: 15px;
+}
+
+/* Điều chỉnh HeroRight thành 3 cột và ảnh tự động co giãn */
+.ProductList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+/* Card sản phẩm */
+.ProductCard {
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Đảm bảo ảnh co giãn linh hoạt */
+  max-height: fit-content;
+}
+
+/* Ảnh sản phẩm tự động thu nhỏ */
+.ProductImg {
+  width: 100%;
+  height: 70%;
+  max-width: 70px; /* Giới hạn kích thước ảnh */
+  border-radius: 8px;
+}
+
+/* Giá sản phẩm */
+.ProductPrice {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d9534f;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ProductCard:hover {
+  box-shadow: 0 0 12px rgba(241, 63, 63, 0.7); /* Màu vàng ánh sáng */
+  transform: translateY(-5px); /* Nhẹ nhàng nổi lên một chút */
+  cursor: pointer;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /* Làm tròn */
+  background-color: #ccc; /* Màu xám nhạt */
+  margin: 0 4px;
+  border: none;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: transparent; /* Ẩn đi khi active */
+  border: 1.5px solid #ccc; /* Có thể dùng viền để vẫn thấy vị trí */
+}
+
+
+
+/* Responsive */
+@media (max-width: 992px) {
+  .HeroRight {
+    max-width: 35%;
+  }
+  .ProductList {
+    grid-template-columns: repeat(2, 1fr); /* Xuống 2 cột khi màn hình nhỏ hơn */
+  }
+  .ProductImg {
+    max-width: 80px; /* Thu nhỏ ảnh */
+  }
+}
+
+@media (max-width: 768px) {
+  .HeroRight {
+    max-width: 40%;
+  }
+  .ProductList {
+    grid-template-columns: repeat(2, 1fr); /* Tiếp tục giữ 2 cột */
+  }
+  .ProductImg {
+    max-width: 70px; /* Thu nhỏ ảnh hơn */
+  }
+}
+
+@media (max-width: 576px) {
+  .HeroRight {
+    max-width: 50%;
+  }
+  .ProductList {
+    grid-template-columns: repeat(1, 1fr); /* Chuyển về 1 cột trên điện thoại */
+  }
+  .ProductImg {
+    max-width: 60px; /* Giữ kích thước nhỏ trên điện thoại */
+  }
+}

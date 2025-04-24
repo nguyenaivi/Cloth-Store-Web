@@ -1,0 +1,116 @@
+.Navbar {
+    background-color: #f8f9fa; /* Màu nền của Navbar */
+    padding: 10px 0; /* Khoảng cách giữa các phần tử trong Navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+    display: flex; /* Hiển thị theo chiều ngang */
+    justify-content: space-between; /* Căn giữa các phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    overflow: visible;
+    width: 100%;
+  }
+  
+  .NavLogo {
+    display: flex; /* Hiển thị theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 10px; /* Khoảng cách giữa các phần tử */
+  }
+  
+  .NavLogo img {
+    width: 100px; /* Đặt chiều rộng của logo */
+    height: auto; /* Giữ tỉ lệ khung hình */
+    margin-left: 30px;
+    font-family: 'Courgette', cursive; /* Chọn font chữ */
+  }
+  
+  .NavLogo p {
+    font-size: 2.5rem; /* Kích thước chữ */
+    font-weight: bold; /* Chữ đậm */
+    color: red; /* Màu chữ */
+    font-family: 'Langar', cursive; /* Chọn font chữ */
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  
+  .nav {
+    display: flex; /* Hiển thị theo chiều ngang */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    list-style: none; /* Ẩn dấu chấm tròn */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    font-size: 20px; /* Kích thước chữ */
+    flex-grow: 1; /* Chiếm không gian còn lại để căn giữa */
+    justify-content: center; /* Căn giữa các phần tử */
+  }
+  
+  .nav li {
+    cursor: pointer; /* Hiệu ứng khi rê chuột vào */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    display: flex; /* Hiển thị theo chiều ngang */
+    justify-content: center; /* Căn giữa các phần tử */
+    gap: 5px; /* Khoảng cách giữa các phần tử */
+  }
+  
+  .nav li a {
+    color: gray !important; /* Màu chữ xám và sử dụng !important để ghi đè */
+  }
+  
+  .nav hr {
+    border: none; /* Ẩn viền */
+    height: 20px; /* Chiều cao */
+    width: 1px; /* Chiều rộng */
+    background-color: #333; /* Màu nền */
+  }
+  
+  .NavLoginCart {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+.NavLoginSignUp {
+  display: flex; /* Hiển thị các button theo hàng ngang */
+  gap: 10px; /* Tạo khoảng cách giữa Login và Sign-up */
+}
+
+.Login, .SignUp {
+  border: 1px solid rgb(108, 107, 107);
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.NavLoginSignUp {
+  gap: 20px;
+}
+  .NavLoginCart button:active {
+    color: #141313; /* Màu chữ */
+  }
+.NavLoginSignUp .SignUp {
+  margin-right: 10px;
+}
+  .NavCartIcon {
+    position: relative; /* Định vị tương đối để chứa NavCartCount */
+    display: flex;
+    align-items: center;
+  }
+  
+  .NavCartCount {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.nav-link.active {
+  text-decoration: underline; /* Tạo dấu gạch chân */
+  color: black !important; /* Đổi màu chữ khi được chọn */
+}

@@ -1,0 +1,28 @@
+.Popular {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.PopularInPeople {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cột trên mỗi hàng */
+    gap: 20px; /* Khoảng cách giữa các item */
+    justify-content: center;
+}
+
+.PopularImage {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.PopularImage img {
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 45px;
+}

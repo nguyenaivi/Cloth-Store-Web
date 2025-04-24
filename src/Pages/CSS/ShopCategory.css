@@ -1,0 +1,55 @@
+.ShopCategoryBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .ShopCategoryBanner img {
+    height: auto;          /* Tự tính chiều cao theo tỷ lệ ảnh */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Tuỳ chọn: đổ bóng nhẹ */
+  }
+.ShopCategoryProduct {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 cột trên mỗi hàng */
+  gap: 20px; /* Khoảng cách giữa các item */
+  justify-content: center;
+}
+
+.ShopCategoryIndexSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.ShopCategorySort {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+}
+
+.ShopCategoryExploreMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  margin-top: 20px;
+}
+.ShopCategoryExploreMore {
+  color: #696767;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  
+}
+
+.ShopCategoryExploreMore:hover {
+  color: rgb(77, 76, 76);
+}

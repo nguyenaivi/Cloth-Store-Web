@@ -1,0 +1,26 @@
+.Policy {
+    background-color: #f8f9fa;
+    margin-top: 25px;
+}
+
+.feature {
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.feature-icon {
+    width: 60px;  /* Điều chỉnh kích thước khung icon */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f41124 !important; /* Màu nền */
+    border-radius: 12px; /* Bo góc */
+    margin: 0 auto; /* Căn giữa */
+}
+
+.feature-icon img {
+    width: 30px; /* Điều chỉnh kích thước icon */
+    height: 30px;
+    object-fit: contain; /* Đảm bảo không bị méo */
+    margin-bottom: 0;
+}

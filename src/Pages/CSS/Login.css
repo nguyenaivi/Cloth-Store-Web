@@ -1,0 +1,9 @@
+.ForgotPassword {
+  text-align: right !important;
+  cursor: pointer;
+}
+.Remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,14 @@
+.NewCollection {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Collection {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cột trên mỗi hàng */
+    gap: 20px; /* Khoảng cách giữa các item */
+    justify-content: center;
+}

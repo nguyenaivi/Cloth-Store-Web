@@ -1,0 +1,64 @@
+
+.Item {
+   position: relative;
+}
+img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 9px;
+      cursor: pointer;
+      margin-bottom: 10px;
+}
+ .ItemPrice {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+ }
+
+ .ItemPriceNew {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+ }
+
+ .ItemPriceOld {
+    color: grey;
+    font-size: 16px;
+    text-decoration: line-through;
+ }
+
+
+ .AddToCart {
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: #f1ede1;
+   color: black;
+   font-size: 1em;
+   font-weight: bold;
+   cursor: pointer;
+   opacity: 0;
+   position: absolute;
+   top: 70%;
+   transform: translate(-50%, -50%);
+   white-space: nowrap; /* Chữ luôn trên một hàng */
+   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+   
+ }
+.Item:hover button {
+   opacity: 1;
+   visibility: visible;
+   transition: opacity 0.3s ease-in-out; /* Làm hiệu ứng mượt */
+}
+
+.Item:hover img {
+   transform: scale(1.05);
+}
+
+ @media (max-width: 768px) {
+   .Item img {
+       height: 150px; /* Chiều cao giảm khi màn hình nhỏ */
+   }
+}

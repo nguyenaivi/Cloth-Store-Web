@@ -1,0 +1,62 @@
+.SignupLogin {
+    position: relative;
+    width: 100%;
+  }
+
+  .SignUpLoginForm input::placeholder {
+    font-style: italic;
+  }
+  .SignUpLoginBanner .Banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .SignUpLoginForm {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    z-index: 10;
+  }
+
+  .SignUpLoginForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    
+  }
+  
+  /* Button đẹp */
+  .SignUpLoginButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .SignUpLoginButton:hover {
+    background-color: #e9263a;
+  }
+
+  .SignUpLoginForm p {
+    text-align: left;
+    margin-bottom: 7px !important;
+    font-size: 16px !important;
+    font-weight: 500;
+  }
+
+  .SendOTP {
+    text-align: right !important;
+    cursor: pointer;
+  }
