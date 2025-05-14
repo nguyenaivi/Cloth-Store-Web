@@ -1,0 +1,82 @@
+.CartItemsFormatMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.CartItemsFormat {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.ProductImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.RemoveIcon {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.CartEmpty {
+    justify-content: center;
+    align-items: center;
+    height: 50% !important;
+    width: 50%;
+}
+
+.CartItemsTotal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.CheckoutButton {
+    width: 40%;
+    padding: 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.ContinueShoppingButton {
+    width: 40%;
+    padding: 12px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.CheckoutButton:hover {
+    background-color: #e9263a;
+}
+
+.ContinueShoppingButton:hover {
+    background-color: #f0f0f0;
+}

@@ -1,9 +1,50 @@
+.ForgotRemember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
 .ForgotPassword {
-  text-align: right !important;
+  color: #dc3545;
+  
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.CheckboxRemember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
   cursor: pointer;
+  white-space: nowrap; /*đảm bảo nội dung không xuống dòng */
 }
-.Remember {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.CheckboxRemember input {
+  margin-bottom: 0 !important;
 }
+
+.Password {
+  display: flex;
+  position: relative;
+}
+.Password input {
+  width: 100%;
+}
+.Password .Eye {
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 0px !important;
+}
+
+.ForgotPassword,
+.SignUpLoginForm a {  /* span thì viết thành a */
+  text-decoration: none; /* Loại bỏ gạch chân */
+}
+

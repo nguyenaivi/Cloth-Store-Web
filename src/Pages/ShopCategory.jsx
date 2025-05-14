@@ -9,6 +9,32 @@ const ShopCategory = (props) => {
   const FilterProduct = AllProduct.filter((product)=> {
     return product.category === props.category
   })
+  const [isDropDownOpen, setIsDropDownOpen] = React.useState(false);
+  const handleDropDownClick = () => {
+    setIsDropDownOpen(!isDropDownOpen);
+  }
+
+  const [sortOption, setSortOption] = React.useState('');
+  const handleSortOption = (option) => {
+    setSortOption(option);
+    setIsDropDownOpen(false);
+  };
+
+  const extractPrice = (priceString) => {
+  return Number(priceString.replace(/[^\d]/g, '')); // Loại bỏ ký tự không phải số
+};
+
+
+  const sortProducts = [...FilterProduct];
+  if (sortOption === 'asc') {
+    sortProducts.sort((a, b) => extractPrice(a.newPrice) - extractPrice(b.newPrice));
+  } else if (sortOption === 'desc') {
+    sortProducts.sort((a, b) => extractPrice(b.newPrice) - extractPrice(a.newPrice));
+  }
+
+  
+  console.log(sortOption, sortProducts.map(p => p.newPrice));
+
   return (
     <div className='ShopCategory'>
       <div className='ShopCategoryBanner'>
@@ -19,14 +45,20 @@ const ShopCategory = (props) => {
           <span>Showing 1-15</span> of {FilterProduct.length} products
         </p>
         <div className="ShopCategorySort">
-          Sort By <img src={ChevronDown} style={{width: '12px', height: '12px', marginBottom: 0}} alt='Chevron Down Icon' />
+          Sort By <img src={ChevronDown} style={{width: '12px', height: '12px', marginBottom: 0}} alt='Chevron Down Icon' onClick={handleDropDownClick} />
+          {isDropDownOpen && (
+              <div className="DropdownMenu">
+                <div onClick={() => handleSortOption('asc')}>Giá tăng dần</div>
+                <div onClick={() => handleSortOption('desc')}>Giá giảm dần</div>
+              </div>
+            )}
         </div>
         
       </div>
         
       <div className="ShopCategoryProduct">
-        {FilterProduct.map((product, index) => {
-          return <Item key = {index} name = {product.name} image = {product.image} newPrice = {product.newPrice} oldPrice = {product.oldPrice} />
+        {sortProducts.map((product, index) => {
+          return <Item key = {index} id = {product.id} name = {product.name} image = {product.image} newPrice = {product.newPrice} oldPrice = {product.oldPrice} />
         })}
       </div>
       <div className="ShopCategoryExploreMore">

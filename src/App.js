@@ -7,6 +7,7 @@ import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
+import ForgotPassword from './Pages/ForgotPassword.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Footer from './Components/Footer/Footer.jsx';
@@ -20,16 +21,17 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path='/men' element={<ShopCategory banner={MenBanner} category="men"/>} />
           <Route path='/women' element={<ShopCategory banner={WomenBanner} category="women"/>} />
           <Route path='/kid' element={<ShopCategory banner={KidBanner} category="kid"/>} />
           <Route path='/accessories' element={<ShopCategory banner={AccessoriesBanner} category="accessories"/>} />
-          <Route path='/product/:id' element={<Product />} />
-
+          <Route path='/product/:id' element={<Product />} /> 
           <Route path='/cart' element={<Cart />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
+          <Route path='/forgotpassword' element={<ForgotPassword />} />
         </Routes>
         <Footer />
       </BrowserRouter>

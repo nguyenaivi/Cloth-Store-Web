@@ -41,6 +41,27 @@ let AllProducts = [
         image: p1_img,
         newPrice: '200.000đ',
         oldPrice: '400.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
+
     },
     {
         id: 2,
@@ -49,6 +70,26 @@ let AllProducts = [
         image: p2_img,
         newPrice: '300.000đ',
         oldPrice: '600.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 3,
@@ -57,6 +98,27 @@ let AllProducts = [
         image: p3_img,
         newPrice: '250.000đ',
         oldPrice: '500.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 4,
@@ -65,6 +127,27 @@ let AllProducts = [
         image: p4_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 5,
@@ -73,6 +156,26 @@ let AllProducts = [
         image: p5_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 6,
@@ -81,6 +184,26 @@ let AllProducts = [
         image: p6_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 7,
@@ -89,6 +212,26 @@ let AllProducts = [
         image: p7_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 8,
@@ -97,6 +240,26 @@ let AllProducts = [
         image: p8_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 9,
@@ -105,6 +268,26 @@ let AllProducts = [
         image: p9_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 10,
@@ -113,6 +296,26 @@ let AllProducts = [
         image: p10_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 11,
@@ -121,6 +324,25 @@ let AllProducts = [
         image: p11_img,
         newPrice: '400.000đ',
         oldPrice:'800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 12,
@@ -129,6 +351,25 @@ let AllProducts = [
         image: p12_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 13,
@@ -137,6 +378,25 @@ let AllProducts = [
         image: p13_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 14,
@@ -145,6 +405,26 @@ let AllProducts = [
         image: p14_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        'Chất liệu: 100% cotton\n' +
+        'Màu sắc: Trắng, Đen, Xanh\n' +
+        'Kích thước: S, M, L, XL\n' +
+        'Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        'Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        'Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        'Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 15,
@@ -153,6 +433,26 @@ let AllProducts = [
         image: p15_img,
         newPrice: '400.000đ',
         oldPrice: '80.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 16,
@@ -161,6 +461,25 @@ let AllProducts = [
         image: p16_img,
         newPrice: '305.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 17,
@@ -169,6 +488,26 @@ let AllProducts = [
         image: p17_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 18,
@@ -177,6 +516,26 @@ let AllProducts = [
         image: p18_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 19,
@@ -185,6 +544,25 @@ let AllProducts = [
         image: p19_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 20,
@@ -193,6 +571,26 @@ let AllProducts = [
         image: p20_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Chất liệu: 100% cotton\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 21,
@@ -201,6 +599,25 @@ let AllProducts = [
         image: p21_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Chất liệu: 100% cotton\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 22,
@@ -209,6 +626,26 @@ let AllProducts = [
         image: p22_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 23,
@@ -217,6 +654,26 @@ let AllProducts = [
         image: p23_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 24,
@@ -225,6 +682,25 @@ let AllProducts = [
         image: p24_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 25,
@@ -233,6 +709,27 @@ let AllProducts = [
         image: p25_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 26,
@@ -241,6 +738,27 @@ let AllProducts = [
         image: p26_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 27,
@@ -249,6 +767,27 @@ let AllProducts = [
         image: p27_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 28,
@@ -257,6 +796,25 @@ let AllProducts = [
         image: p28_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 29,
@@ -265,6 +823,27 @@ let AllProducts = [
         image: p29_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 30,
@@ -273,6 +852,27 @@ let AllProducts = [
         image: p30_img,
         newPrice: '359.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 31,
@@ -281,6 +881,27 @@ let AllProducts = [
         image: p31_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 32,
@@ -289,6 +910,26 @@ let AllProducts = [
         image: p32_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 33,
@@ -297,6 +938,27 @@ let AllProducts = [
         image: p33_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 34,
@@ -305,6 +967,27 @@ let AllProducts = [
         image: p34_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
         id: 35,
@@ -313,6 +996,26 @@ let AllProducts = [
         image: p35_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+        ],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     }
 ]
 

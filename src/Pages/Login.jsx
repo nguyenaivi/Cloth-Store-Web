@@ -1,12 +1,19 @@
 import React, { useState } from 'react'
 import SignUpBanner from '../Components/Assets/Banner/SignUpBanner.png'
 import './CSS/Login.css'
+import Eye from '../Components/Assets/Icons/eye.svg'
+import CloseEye from '../Components/Assets/Icons/eye-slash.svg'
+import { Link } from 'react-router-dom';
 export const Login = () => {
-  const [handleCheckBox, setHandleCheckBox] = useState(false);
+  const [isCheckBox, setHandleCheckBox] = useState(false);
   const handleCheckBoxChange = () => {
-    setHandleCheckBox(!handleCheckBox);
+    setHandleCheckBox(!isCheckBox);
   };
- 
+  const [isClose, setHandleCloseEye] = useState(true);
+  const handleCloseEye = () => {
+    setHandleCloseEye(!isClose);
+  }
+  const [menu, setMenu] = React.useState("home");
   return (
     <div className='SignupLogin'>
       <div className="SignUpLoginBanner">
@@ -15,18 +22,23 @@ export const Login = () => {
       <div className="SignUpLoginForm LoginForm">
         <h3>Login</h3>
         <p>Phone number</p>
-        <input type="number" placeholder='Enter your phone number...' />
+        <input type="tel" placeholder='Enter your phone number...' />
         <p>Password</p>
-        <input type="password" placeholder='Enter your password...' />
-        <p className='ForgotPassword' style={{color: '#dc3545'}}>Forgot Password?</p>
-        <p className='Remember'>
-          <input type="checkbox"  checked={setHandleCheckBox} onChange={handleCheckBox}/> Remember me
-        </p>
+        <div className="Password">
+          <input type={isClose ? 'password' : 'text'} placeholder='Enter your password...' />
+          <img className='Eye' src={isClose ? CloseEye : Eye} onClick={handleCloseEye} alt='eye' />
+        </div>
+        <div className="ForgotRemember">
+          <Link to="/forgotpassword" className="ForgotPassword" >Forgot Password? </Link>
+          <label className="CheckboxRemember">
+            <input id="rememberMe" type="checkbox" checked={isCheckBox} onChange={handleCheckBoxChange} style={{marginRight: '8px'}} /> Remember Me
+          </label>
+        </div>
         <button className='SignUpLoginButton'>Login</button>
-        <p>Already have an account? <span style={{color: '#dc3545'}}>Sign up</span></p>
+        <p>Already have an account? <span><Link to="/signup" className='Signup' style={{color: '#dc3545'}}>Sign up</Link></span></p>
       </div>
     </div>
   )
 }
 
-export default Login
+export default Login;
