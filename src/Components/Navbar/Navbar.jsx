@@ -5,9 +5,14 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import CartIcon from '../Assets/Icons/CartIcon';
-
+import { useContext } from 'react';
+import { ShopContext } from '../../Context/ShopContext';
 export const Navbar = () => {
   const [menu, setMenu] = React.useState("home");
+  const { cartItems } = useContext(ShopContext);
+
+  // Tính tổng số lượng sản phẩm trong giỏ hàng
+  const cartCount = Object.values(cartItems).reduce((sum, item) => sum + item.quantity, 0);
   return (
     <div className='Navbar'>
       <div className="NavLogo">
@@ -32,7 +37,7 @@ export const Navbar = () => {
         </div>
         <div className="NavCartIcon">
           <Link to = '/cart' ><CartIcon /></Link>
-          <div className="NavCartCount">0</div>
+          <div className="NavCartCount">{cartCount}</div>
         </div>
       </div>
     </div>

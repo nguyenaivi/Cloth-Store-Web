@@ -35,7 +35,7 @@ export const Login = () => {
           </label>
         </div>
         <button className='SignUpLoginButton'>Login</button>
-        <p>Already have an account? <span><Link to="/signup" className='Signup' style={{color: '#dc3545'}}>Sign up</Link></span></p>
+        <p>Don't have an account? <span><Link to="/signup" className='Signup' style={{color: '#dc3545'}}>Sign up</Link></span></p>
       </div>
     </div>
   )

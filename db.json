@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "5aa6",
+      "email": "longduong2412@gmail.com",
+      "username": "longduong2412@gmail.com",
+      "password": "12345",
+      "name": {
+        "firstname": "Long",
+        "lastname": "Vi"
+      },
+      "address": {
+        "city": "HCM",
+        "street": "abc",
+        "number": 12,
+        "zipcode": "12345",
+        "geolocation": {
+          "lat": "0",
+          "long": "0"
+        }
+      },
+      "phone": "0917203898"
+    },
+    {
+      "id": "c5fb",
+      "email": "longduong2412@gmail.com",
+      "username": "longduong2412@gmail.com",
+      "password": "12345",
+      "name": {
+        "firstname": "cute",
+        "lastname": "Vi"
+      },
+      "address": {
+        "city": "HCM",
+        "street": "abc",
+        "number": 12,
+        "zipcode": "12345",
+        "geolocation": {
+          "lat": "0",
+          "long": "0"
+        }
+      },
+      "phone": "0917203898"
+    },
+    {
+      "id": "1dfa",
+      "email": "vi@gmail.com",
+      "username": "vi@gmail.com",
+      "password": "12345",
+      "name": {
+        "firstname": "Vi",
+        "lastname": "Nguyễn"
+      },
+      "address": {
+        "city": "HCM",
+        "street": "abc",
+        "number": 12,
+        "zipcode": "12345",
+        "geolocation": {
+          "lat": "0",
+          "long": "0"
+        }
+      },
+      "phone": "09283978"
+    }
+  ]
+}

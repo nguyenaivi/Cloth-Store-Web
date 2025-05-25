@@ -5,6 +5,7 @@
     width: 100%;
     font-weight: bold;
     margin-top: 30px;
+    text-align: center;
 }
 
 .CartItemsFormat {
@@ -41,10 +42,7 @@
     width: 50%;
 }
 
-.CartItemsTotal {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 .Checkout {
     display: flex;
@@ -79,4 +77,21 @@
 
 .ContinueShoppingButton:hover {
     background-color: #f0f0f0;
+}
+
+.CartItemsTotalRow {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.CartTotalLabel {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.CartTotalAmount {
+    color: #dc3545;
+    font-weight: 600;
+    font-size: 20px;
 }

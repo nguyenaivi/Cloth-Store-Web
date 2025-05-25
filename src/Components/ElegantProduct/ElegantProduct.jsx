@@ -10,7 +10,7 @@ export const ElegantProduct = () => {
         <div className="container py-5">
         <h2 class="text-center">BST Elegant Vibrance</h2>
         <p class="text-center text-muted elegantVibrance">
-            <span>"ELEGANT VIBRANCE" - NEW COLLECTION"</span> Những thứ đơn giản khiến Nàng tỏa sáng bất cứ đâu.
+            <span>"ELEGANT VIBRANCE" - NEW COLLECTION"</span> Simple things make her shine anywhere.
         </p>
         <div className="row mt-4">
             <div className="col-md-4 CardElegant">
@@ -19,7 +19,7 @@ export const ElegantProduct = () => {
                     <h4 className="mt-3">Leather Jacket</h4>
                     <p className="product-price">159.000 VND</p>
                     {/* button phải nằm trong div thì mới chịu ảnh hưởng */}
-                    <button className='ElegantProduct'>Thêm vào giỏ hàng</button> 
+                    <button className='ElegantProduct'>Add to Cart</button> 
                 </div>
                 
 
@@ -29,7 +29,7 @@ export const ElegantProduct = () => {
                     <img src={elegantProduct2} alt="Chân Váy Nữ Dáng Xòe"/>
                     <h4 className="mt-3">Floral Dress</h4>
                     <p className="product-price">199.000 VND</p>
-                    <button className='ElegantProduct'>Thêm vào giỏ hàng</button>
+                    <button className='ElegantProduct'>Add to Cart</button>
                 </div>
                 
             </div>
@@ -38,7 +38,7 @@ export const ElegantProduct = () => {
                     <img src={elegantProduct3} alt="Áo Sơ Mi Nữ Kiểu"/>
                     <h4 className="mt-3">Midi Dress</h4>
                     <p className="product-price">239.000 VND</p>
-                    <button className='ElegantProduct'>Thêm vào giỏ hàng</button>   
+                    <button className='ElegantProduct'>Add to Cart</button>   
                 </div>
             </div>
         </div>

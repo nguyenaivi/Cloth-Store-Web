@@ -1,7 +1,12 @@
 import React from 'react'
 import './Item.css'
 import {Link} from 'react-router-dom'
+import { useContext } from 'react';
+import { ShopContext } from '../../Context/ShopContext';
 const Item = (props) => {
+  const {addToCart} = useContext(ShopContext);
+  console.log('color:', props.color);
+console.log('size:', props.size);
   return (
     <div className='Item'>
         <Link to = {`/product/${props.id}`}><img src={props.image} alt="" /></Link>
@@ -14,7 +19,11 @@ const Item = (props) => {
                 {props.oldPrice}
             </div>
         </div>
-        <button className='AddToCart'>Thêm vào giỏ hàng</button>
+        <button className='AddToCart' onClick={() => {
+          const defaultColor = props.color && props.color.length > 0 ? props.color[0].name : '';
+          const defaultSize = props.size && props.size.length > 0 ? props.size[0] : '';
+          addToCart(props.id, Number(1), defaultColor, defaultSize)}}>Add to cart</button>
+          
     </div>
   )
 }

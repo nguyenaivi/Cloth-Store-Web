@@ -7,12 +7,13 @@ import Item from '../Item/Item';
 import { ShopContext } from '../../Context/ShopContext';
 const ProductDisplay = (props) => {
   const { product } = props;
-  const {addToCart} = useContext(ShopContext);
+  const { addToCart } = useContext(ShopContext);
   // Đưa tất cả các Hooks lên đầu
   const [quantity, setQuantity] = useState(1);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [animationDirection, setAnimationDirection] = useState('');
   const [selectedColor, setSelectedColor] = useState(product?.color?.[0]?.name || '');
+  const [selectedSize, setSelectedSize] = useState('S');
 
   const handleQuantityIncrease = () => {
     setQuantity((prev) => prev + 1);
@@ -75,7 +76,7 @@ const ProductDisplay = (props) => {
             </div>
             <div className="SizeAndQuantity">
               <div className="ProductInfoDropdown">
-                <select id="sizeSelect" name="size">
+                <select id="sizeSelect" name="size" value={selectedSize} onChange={(e) => setSelectedSize(e.target.value)}>
                   <option value="S">S</option>
                   <option value="M">M</option>
                   <option value="L">L</option>
@@ -93,24 +94,24 @@ const ProductDisplay = (props) => {
 
           </div>
           <div className="ProductButton">
-            <button onClick={() => {addToCart(product.id, Number(quantity))}} className="AddToCartButton" style={{fontSize: 20}}>Add to cart</button>
-            <button className="BuyNowButton" style={{fontSize: 20}}>Buy now</button>
+            <button onClick={() => { addToCart(product.id, Number(quantity), selectedColor, selectedSize) }} className="AddToCartButton" style={{ fontSize: 20 }}>Add to cart</button>
+            <button className="BuyNowButton" style={{ fontSize: 20 }}>Buy now</button>
           </div>
         </div>
       </div>
       <div className="ProductDescription">
-        <h1 style={{fontSize: 30}}>Product Description</h1>
+        <h1 style={{ fontSize: 30 }}>Product Description</h1>
         <p>{product.description.split('\n').map((line, index) => (
-          <span style={{fontSize: 20}} className='Product' key={index}>
+          <span style={{ fontSize: 20 }} className='Product' key={index}>
             {line}
             <br />
           </span>
         ))}</p>
       </div>
       <div className="ProductUse">
-        <h1 style={{fontSize: 30}}>Instructions For Choosing Size For You</h1>
+        <h1 style={{ fontSize: 30 }}>Instructions For Choosing Size For You</h1>
         <p>{product.selectSize.split('\n').map((line, index) => (
-          <span style={{fontSize: 20}} className='Product' key={index}>
+          <span style={{ fontSize: 20 }} className='Product' key={index}>
             {line}
             <br />
           </span>
@@ -127,6 +128,8 @@ const ProductDisplay = (props) => {
               name={relatedProduct.name}
               newPrice={relatedProduct.newPrice}
               oldPrice={relatedProduct.oldPrice}
+              color={relatedProduct.color}
+              size={relatedProduct.size}
             />
           ))}
         </div>

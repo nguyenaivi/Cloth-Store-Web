@@ -54,6 +54,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -83,6 +84,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -112,6 +114,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -141,6 +144,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -169,6 +173,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -197,6 +202,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -225,6 +231,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -253,6 +260,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -281,6 +289,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -309,6 +318,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -336,6 +346,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -363,6 +374,7 @@ let AllProducts = [
             {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -390,6 +402,7 @@ let AllProducts = [
             {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -418,6 +431,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -446,6 +460,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -473,6 +488,7 @@ let AllProducts = [
             {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -501,6 +517,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -529,6 +546,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -556,6 +574,7 @@ let AllProducts = [
             {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -584,6 +603,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -611,6 +631,7 @@ let AllProducts = [
             {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -639,6 +660,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -667,6 +689,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -694,6 +717,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -723,6 +747,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -752,6 +777,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -781,6 +807,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -808,6 +835,7 @@ let AllProducts = [
             {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -837,6 +865,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -866,6 +895,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -895,6 +925,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -923,6 +954,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -952,6 +984,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -981,6 +1014,7 @@ let AllProducts = [
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
             {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
@@ -1009,6 +1043,7 @@ let AllProducts = [
             {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
             {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
         ],
+        size: ['S', 'M', 'L', 'XL'],
         selectSize:
         '- Chọn kích thước: S, M, L, XL\n' +
         '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
