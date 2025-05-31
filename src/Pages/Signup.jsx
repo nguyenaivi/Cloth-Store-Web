@@ -1,9 +1,10 @@
-import React, { useState, useEffect }  from 'react'
+import React, { useState, useEffect } from 'react'
 import './CSS/Signup.css'
 import SignUpBanner from '../Components/Assets/Banner/SignUpBanner.png'
 import Eye from '../Components/Assets/Icons/eye.svg'
 import CloseEye from '../Components/Assets/Icons/eye-slash.svg'
 import { Link } from 'react-router-dom';
+import axios from 'axios'
 
 export const Signup = () => {
   const [isClose, setHandleCloseEye] = useState(true);
@@ -28,45 +29,36 @@ export const Signup = () => {
       alert("Please fill all required fields!");
       return;
     }
-const newUser = {
-    email: email,
-    username: email,
-    password: password,
-    name: {
-      firstname: firstName,
-      lastname: lastName || ""
-    },
-    address: {
-      city: "HCM",
-      street: "abc",
-      number: 12,
-      zipcode: "12345",
-      geolocation: {
-        lat: "0",
-        long: "0"
-      }
-    },
-    phone: phone
-  };
-    fetch('http://localhost:3001/users', {
-  method: "POST",
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify(newUser)
-})
-  .then(res => res.json())
-  .then(data => {
-    console.log("User created:", data);
-    alert("Sign up successfully!");
-    localStorage.setItem("user", JSON.stringify(data));
-  })
-  .catch(err => {
-    console.error("Sign up error:", err);
-    alert("Failed to sign up. Please try again.");
-  });
-
-      
+    const newUser = {
+      email: email,
+      username: email,
+      password: password,
+      name: {
+        firstname: firstName,
+        lastname: lastName || ""
+      },
+      address: {
+        city: "HCM",
+        street: "abc",
+        number: 12,
+        zipcode: "12345",
+        geolocation: {
+          lat: "0",
+          long: "0"
+        }
+      },
+      phone: phone
+    };
+    axios.post('http://localhost:3001/users', newUser)
+    .then(res => {
+      console.log("User created:", res.data);
+      alert("Sign up successfully!");
+      sessionStorage.setItem("user", JSON.stringify(res.data));
+    })
+    .catch(err => {
+      console.error("Sign up error:", err);
+      alert("Failed to sign up. Please try again.");
+    });
   }
 
 

@@ -62,6 +62,27 @@
         }
       },
       "phone": "09283978"
+    },
+    {
+      "id": "78ab",
+      "email": "vinguyen09102004@gmail.com",
+      "username": "vinguyen09102004@gmail.com",
+      "password": "0987654321",
+      "name": {
+        "firstname": "Nguyễn Ái",
+        "lastname": "Vi"
+      },
+      "address": {
+        "city": "HCM",
+        "street": "abc",
+        "number": 12,
+        "zipcode": "12345",
+        "geolocation": {
+          "lat": "0",
+          "long": "0"
+        }
+      },
+      "phone": "0965635746"
     }
   ]
 }
