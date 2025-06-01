@@ -114,3 +114,9 @@
   text-decoration: underline; /* Tạo dấu gạch chân */
   color: black !important; /* Đổi màu chữ khi được chọn */
 }
+
+.NavProfile {
+  font-weight: bold;
+  color: #dc3545;
+  margin-Right: 20px;
+}

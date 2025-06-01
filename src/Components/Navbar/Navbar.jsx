@@ -3,12 +3,13 @@ import './Navbar.css';
 import logo from '../Assets/LogoFM.png';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import CartIcon from '../Assets/Icons/CartIcon';
 import { useContext } from 'react';
 import { AuthContext } from '../../Context/AuthContext';
 import { ShopContext } from '../../Context/ShopContext';
 export const Navbar = () => {
+  const navigate = useNavigate();
   const [menu, setMenu] = React.useState("home");
   const { cartItems } = useContext(ShopContext);
   const { user, logout } = useContext(AuthContext);
@@ -36,10 +37,9 @@ export const Navbar = () => {
         <div className="NavLoginSignUp">
       {user ? (
         <>
-          <span style={{ fontWeight: 'bold', color: '#dc3545' }}>
+          <span className='NavProfile' onClick={() => navigate('/profile')}>
             {user.name?.firstname} {user.name?.lastname}
           </span>
-          <button onClick={logout} style={{marginLeft: 12}}>Logout</button>
         </>
       ) : (
         <>

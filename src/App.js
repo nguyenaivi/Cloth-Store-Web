@@ -15,6 +15,8 @@ import WomenBanner from './Components/Assets/Banner/WomenBanner.jpg';
 import MenBanner from './Components/Assets/Banner/MenBanner.webp';
 import KidBanner from './Components/Assets/Banner/KidBanner.webp';
 import AccessoriesBanner from './Components/Assets/Banner/AccessoriesBanner.jpg';
+import Profile from './Pages/Profile.jsx';
+import ProfileEdit from './Pages/ProfileEdit.jsx';
 function App() {
   return (
     <div className="App">
@@ -32,6 +34,8 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/forgotpassword' element={<ForgotPassword />} />
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/profile-edit' element={<ProfileEdit />} />
         </Routes>
         <Footer />
       </BrowserRouter>

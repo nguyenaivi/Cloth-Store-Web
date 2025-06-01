@@ -1,0 +1,45 @@
+.Profile {
+    display: flex;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: left;
+    
+}
+.ProfileLeft {
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 5%;
+}
+.ProfileRight {
+    flex: 2;
+}
+.ProfileRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.ProfileTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.ProfileRight strong {
+    font-weight: 500;
+    color: #333;
+}
+.ProfileWelcome {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.ProfileNavigation{
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+}
+.ProfileNavigation:hover {
+    text-decoration: underline;
+    color: #dc3545;
+}

@@ -3,10 +3,12 @@ import './CSS/Signup.css'
 import SignUpBanner from '../Components/Assets/Banner/SignUpBanner.png'
 import Eye from '../Components/Assets/Icons/eye.svg'
 import CloseEye from '../Components/Assets/Icons/eye-slash.svg'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios'
+import { AuthContext } from '../Context/AuthContext';
 
 export const Signup = () => {
+  const navigate = useNavigate();
   const [isClose, setHandleCloseEye] = useState(true);
   const [isClose2, setHandleCloseEye2] = useState(true);
 
@@ -15,6 +17,7 @@ export const Signup = () => {
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const { login } = React.useContext(AuthContext);
 
   const handleCloseEye = () => {
     setHandleCloseEye(!isClose);
@@ -54,6 +57,7 @@ export const Signup = () => {
       console.log("User created:", res.data);
       alert("Sign up successfully!");
       sessionStorage.setItem("user", JSON.stringify(res.data));
+      login(res.data);
     })
     .catch(err => {
       console.error("Sign up error:", err);

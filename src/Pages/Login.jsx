@@ -3,10 +3,11 @@ import SignUpBanner from '../Components/Assets/Banner/SignUpBanner.png'
 import './CSS/Login.css'
 import Eye from '../Components/Assets/Icons/eye.svg'
 import CloseEye from '../Components/Assets/Icons/eye-slash.svg'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Context/AuthContext';
 import axios from 'axios';
 export const Login = () => {
+  const navigate = useNavigate();
   const [isCheckBox, setHandleCheckBox] = useState(false);
   const handleCheckBoxChange = () => {
     setHandleCheckBox(!isCheckBox);
@@ -30,11 +31,12 @@ const {login} = useContext(AuthContext);
     });
 
     const data = response.data;
+    console.log('API trả về:', data);
 
     if (data.length > 0) {
       alert('Login successfully!');
       login(data[0]); // Cập nhật AuthContext
-      // window.location.reload() hoặc navigate nếu cần
+      navigate('/'); // Chuyển hướng về trang chủ
     } else {
       setError('Số điện thoại hoặc mật khẩu không đúng!');
     }
