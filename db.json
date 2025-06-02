@@ -84,7 +84,6 @@
       },
       "phone": "0965635746"
     },
-    
     {
       "id": "3105",
       "phone": "0965635746",
@@ -97,19 +96,13 @@
       "password": "0987654321",
       "name": {
         "firstname": "Doris",
-        "lastname": "Nguyễn"
+        "lastname": "Vi Nguyễn"
       },
       "address": {
         "city": "HCM",
-        "street": "abc",
-        "number": 12,
-        "zipcode": "12345",
-        "geolocation": {
-          "lat": "0",
-          "long": "0"
-        }
+        "street": "abc"
       },
-      "phone": "0123456789"
+      "phone": "0987654321"
     }
   ]
 }
