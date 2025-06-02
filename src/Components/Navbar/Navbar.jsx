@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navbar.css';
+import AllProduct from '../Assets/AllProduct';
+import ProductSearch from '../ProductSearch/ProductSearch'
 import logo from '../Assets/LogoFM.png';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +15,9 @@ export const Navbar = () => {
   const [menu, setMenu] = React.useState("home");
   const { cartItems } = useContext(ShopContext);
   const { user, logout } = useContext(AuthContext);
+  const handleSelectProduct = (id) => {
+  navigate(`/product/${id}`);
+};
 
   // Tính tổng số lượng sản phẩm trong giỏ hàng
   const cartCount = Object.values(cartItems).reduce((sum, item) => sum + item.quantity, 0);
@@ -33,6 +38,7 @@ export const Navbar = () => {
         <li onClick={() => setMenu("accessories")}><Link to= '/accessories' className={`nav-link px-2 ${menu === "accessories" ? "active" : ""}`}>Accessories</ Link>
         </li>
       </ul>
+      <ProductSearch products={AllProduct} onSelect={handleSelectProduct} />
       <div className="NavLoginCart">
         <div className="NavLoginSignUp">
       {user ? (
