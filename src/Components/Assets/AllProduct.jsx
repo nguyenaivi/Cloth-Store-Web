@@ -33,6 +33,16 @@ import p32_img from './product-32.webp';
 import p33_img from './product-33.webp';
 import p34_img from './product-34.webp';
 import p35_img from './product-35.webp';
+import p36_img from '../Assets/NewCollection/product-1.webp'
+import p37_img from '../Assets/NewCollection/product-2.webp';
+import p38_img from '../Assets/NewCollection/product-3.webp';
+import p39_img from '../Assets/NewCollection/product-4.webp';
+import p40_img from '../Assets/NewCollection/product-5.webp';
+import p41_img from '../Assets/NewCollection/product-6.webp';
+import p42_img from '../Assets/NewCollection/product-7.webp';
+import p43_img from '../Assets/NewCollection/product-8.webp';
+import p44_img from '../Assets/NewCollection/product-9.webp';
+import p45_img from '../Assets/NewCollection/product-10.webp';
 let AllProducts = [
     {
         id: 1,
@@ -1051,6 +1061,153 @@ let AllProducts = [
         '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
         '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
         '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
+    },
+    {
+        id: 36,
+        name: 'Blossom Blouse',
+        category: 'women',
+        image: p36_img,
+        newPrice: '200.000đ',
+        oldPrice: '400.000đ',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 37,
+        name: 'Elegant Dress',
+        category: 'women',
+        image: p37_img,
+        newPrice: '350.000đ',
+        oldPrice: '500.000đ',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 38,
+        name: 'Classic Trench Coat',
+        category: 'women',
+        image: p38_img,
+        newPrice: '800.000đ',
+        oldPrice: '1.200.000đ',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 39,
+        name: 'Casual Denim Jacket',
+        category: 'women',
+        image: p39_img,
+        newPrice: '450.000đ',
+        oldPrice: '650.000đ',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 40,
+        name: 'Floral Maxi Skirt',
+        category: 'women',
+        image: p40_img,
+        newPrice: '300.000đ',
+        oldPrice: '500.000đ',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 41,
+        name: 'High-Waist Jeans',
+        category: 'women',
+        image: p41_img,
+        newPrice: '400.000đ',
+        oldPrice: '600.000đ',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 42,
+        name: 'Chic Crop Top',
+        category: 'women',
+        image: p42_img,
+        newPrice: '250.000đ',
+        oldPrice: '400.000đ',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 43,
+        name: 'Lace Midi Dress',
+        category: 'women',
+        image: p43_img,
+        newPrice: '700.000đ',
+        oldPrice: '1.000.000đ',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 44,
+        name: 'Knitted Sweater',
+        category: 'women',
+        image: p44_img,
+        newPrice: '350.000đ',
+        oldPrice: '550.000đ',
+        color: [
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+    },
+    {
+        id: 45,
+        name: 'Sporty Leggings',
+        category: 'women',
+        image: p45_img,
+        newPrice: '280.000đ',
+        oldPrice: '400.000đ',
+        color: [
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
     }
 ]
 

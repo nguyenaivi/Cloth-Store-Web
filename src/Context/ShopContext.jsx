@@ -32,6 +32,7 @@ const ShopContextProvider = (props) => {
             }
         }));
     };
+   
     const contextValue = { AllProduct, cartItems, addToCart, removeFromCart };
     return (
         <ShopContext.Provider value={contextValue} >

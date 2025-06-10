@@ -16,125 +16,440 @@ import p30_img from './product-30.webp';
 
 let PopularInMen = [
     {
-        id: 1,
+        id: 16,
         name: 'Denim Jacket',
         category: 'men',
         image: p16_img,
         newPrice: '305.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 2,
+        id: 17,
         name: 'Leather Jacket',
         category: 'men',
         image: p17_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 3,
+        id: 18,
         name: 'Denim Jacket',
         category: 'men',
         image: p18_img,
-        newPrice: '35-.000đ',
+        newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 4,
+        id: 19,
         name: 'Leather Jacket',
         category: 'men',
         image: p19_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 5,
+        id: 20,
         name: 'Denim Jacket',
         category: 'men',
         image: p20_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Chất liệu: 100% cotton\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 6,
+        id: 21,
         name: 'Leather Jacket',
         category: 'men',
         image: p21_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Chất liệu: 100% cotton\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 7,
+        id: 22,
         name: 'Denim Jacket',
         category: 'men',
         image: p22_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 8,
+        id: 23,
         name: 'Leather Jacket',
         category: 'men',
         image: p23_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 9,
+        id: 24,
         name: 'Denim Jacket',
         category: 'men',
         image: p24_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 10,
+        id: 25,
         name: 'Leather Jacket',
         category: 'men',
         image: p25_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 11,
+        id: 26,
         name: 'Denim Jacket',
         category: 'men',
         image: p26_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 12,
+        id: 27,
         name: 'Leather Jacket',
         category: 'men',
         image: p27_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 13,
+        id: 28,
         name: 'Denim Jacket',
         category: 'men',
         image: p28_img,
         newPrice: '350.000đ',
         oldPrice: '700.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 14,
+        id: 29,
         name: 'Leather Jacket',
         category: 'men',
         image: p29_img,
         newPrice: '400.000đ',
         oldPrice: '800.000đ',
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
     },
     {
-        id: 15,
+        id: 30,
         name: 'Denim Jacket',
         category:'men',
         image: p30_img,
         newPrice: '359.000đ',
         oldPrice: '700.000đ',
-    }
+        description: 
+        '- Chất liệu: 100% cotton\n' +
+        '- Màu sắc: Trắng, Đen, Xanh\n' +
+        '- Kích thước: S, M, L, XL\n' +
+        '- Mô tả: Áo sơ mi nữ tay ngắn, cổ bẻ, họa tiết hoa văn, phong cách trẻ trung, năng động.\n' +
+        '- Hướng dẫn bảo quản: Giặt tay, không ngâm nước lâu, không sử dụng chất tẩy mạnh.\n' +
+        '- Hướng dẫn sử dụng: Phù hợp với nhiều dịp như đi làm, đi chơi, dạo phố.\n' +
+        '- Lưu ý: Màu sắc có thể khác biệt một chút do ánh sáng',
+        color: [
+            {name: 'Cream', image: require('../Assets/ProductColor/cream.jpg')},
+            {name: 'Black', image: require('../Assets/ProductColor/black.jpg')},
+            {name: 'Pink', image: require('../Assets/ProductColor/pink.png')},
+            {name: 'White', image: require('../Assets/ProductColor/white.jpg')},
+        ],
+        size: ['S', 'M', 'L', 'XL'],
+        selectSize:
+        '- Chọn kích thước: S, M, L, XL\n' +
+        '- Kích thước S: Dành cho người có chiều cao từ 1m50 đến 1m55, cân nặng từ 40kg đến 50kg.\n' +
+        '- Kích thước M: Dành cho người có chiều cao từ 1m55 đến 1m60, cân nặng từ 50kg đến 60kg.\n' +
+        '- Kích thước L: Dành cho người có chiều cao từ 1m60 đến 1m65, cân nặng từ 60kg đến 70kg.\n' +
+        '- Kích thước XL: Dành cho người có chiều cao từ 1m65 trở lên, cân nặng từ 70kg trở lên.\n' +
+        '- Lưu ý: Kích thước có thể thay đổi tùy theo từng thương hiệu và kiểu dáng sản phẩm.',
+    },
 ];
 
 export default PopularInMen;
